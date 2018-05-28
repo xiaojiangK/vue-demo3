@@ -1,0 +1,15 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title>my-vue</title><link href=./static/css/app.b20336f5ccca7576bfe75b53e7ec0920.css rel=stylesheet></head><body><div id=app-box></div><script>(function(doc, win){ 
+				 var docE1 = doc.documentElement, 
+				 resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize', 
+				 
+				 recalc = function(){ 
+					 var clientWidth = docE1.clientWidth; 
+					 if(!clientWidth) return; 
+					 if (clientWidth >= 768) {clientWidth = 768}
+					 docE1.style.fontSize = 100*(clientWidth/320) + 'px';  
+				 }; 
+				 
+				 if (!doc.addEventListener) return; 
+				 win.addEventListener(resizeEvt,recalc,false); 
+				 doc.addEventListener('DOMContentLoaded',recalc,false); 
+			 })(document,window);</script><script type=text/javascript src=./static/js/manifest.1c6aeeb2bfcde7cc7935.js></script><script type=text/javascript src=./static/js/vendor.2a86ccfacc395dc5f7c8.js></script><script type=text/javascript src=./static/js/app.b4f7fc97892587892179.js></script></body></html>
